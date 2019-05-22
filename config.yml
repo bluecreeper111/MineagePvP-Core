@@ -1,0 +1,80 @@
+# MineagePvP Official Configuration File
+# Initial developer: bluecreeper111 (Exponential Services)
+# If any questions consult me (Discord: bluecreeper111#9071)
+
+# The following is a prefix displayed before all messages in the plugin
+message-prefix: '&9&lMineagePvP &8>>'
+
+# The following is the title of the /trash GUI
+trashGuiTitle: '&9Trash'
+
+# /jellylegs
+# The message sent to the player when they use /jellylegs
+# %toggle% will be replaced with either enabled or disabled.
+jellyLegsMessageEnable: '&aJellylegs has been &2enabled'
+jellyLegsMessageDisable: '&aJellylegs has been &2disabled'
+
+# /bottle
+# The message sent to the player when they use /bottle
+# %toggle% will be replaced with either enabled or disabled.
+bottleMessageEnable: '&aAutomatic bottle disposal has been &2enabled'
+bottleMessageDisable: '&aAutomatic bottle disposal has been &2disabled'
+
+# /nightvision
+# The message sent to the player when they use /nightvision
+# %toggle% will be replaced with either enabled or disabled.
+nightvisionMessageEnable: '&aNightvision has been &2enabled'
+nightvisionMessageDisable: '&aNightvision has been &2disabled'
+
+# /tnt
+# This message will be sent to the player when they use /tnt
+# %tnt% will be replaced with the amount they crafted
+tntMessage: '&aCrafted &2%tnt% &aT.N.T'
+# This message will be sent when a player uses /tnt and doesn't have enough resources to craft any
+tntNone: '&cYou do not have enough resources!'
+
+# /freeze
+# This message will be sent to the sender when a player is frozen.
+# %player% is replaced with the player frozen
+freezeMessage: '&aYou have frozen player &2%player%'
+# This message will be sent to the player who is frozen
+freezeMessagePlayer: '&aYou have been frozen! This means you will be unable to perform in-game tasks until unfrozen.'
+# This message will be sent to the sender when a player is unfrozen.
+# %player% is replaced with the player who is unfrozen
+unfreezeMessage: '&6You have been unfrozen player &c%player%'
+# This message will be sent to the player who is unfrozen.
+unfreezeMessagePlayer: '&6You have been unfrozen!'
+
+# This message will be sent to a player who is frozen and tries to perform a forbidden task.
+currentlyFrozen: '&cYou cannot do that! You are currently frozen!'
+
+# /cpc
+# This message is sent when the chat is cleared privately
+privateClearChatMessage: '&6Your chat has been cleared!'
+
+# /pot
+# Message sent to the player when they stack their potions
+potMessage: '&aPotions have been stacked!'
+
+# The following is the radius for lava-sponges: (Must be a number!) (In Blocks)
+lavaSpongeRadius: 7
+
+# Reapers
+# The following is the health of a reaper entity: (In hearts) (Must be a number!)
+reaperHealth: 20
+# The following is the spawn rate of reapers (as a percentage) (Must be a number!)
+reaperSpawnPercentage: 50
+# The following is how often reapers shoot fireballs (in seconds) (Must be a number!)
+reaperFireballInterval: 3
+# The following is what reapers will drop:
+# Format: <item type>, <amount>, (Optional) <data value>
+# IMPORTANT: The item names used are Bukkit Item IDS: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+reaperDrops:
+ - diamond_hoe, 1
+ - 
+
+# The following defines the limit for auto-cannons (Recommend keeping at 20)
+antiCannonLimit: 20
+
+# The following will determine whether or not to drop Chunkloaders on explosions:
+dropChunkloaderBreak: true

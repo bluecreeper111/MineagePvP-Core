@@ -1,0 +1,39 @@
+main: com.mineagepvp.core.Main
+name: MineagePvP-Core
+author: bluecreeper111
+version: 1.0
+description: Core plugin for MineagePvp
+commands:
+  trash:
+    description: Opens a trash bin.
+    usage: /<command>
+  bottle:
+    description: Disposes of glass bottles automatically.
+    usage: /<command>
+  jellylegs:
+    description: Enables no fall damage.
+    usage: /<command>
+  nightvision:
+    description: Toggles nightvision.
+    usage: /<command>
+  anvil:
+    description: Opens a portable anvil.
+    usage: /<command>
+  crafttnt:
+    description: Crafts tnt with inventory materials.
+    usage: /<command>
+  freeze:
+    description: Freeze the specified player.
+    usage: /<command>
+  clearchat:
+    description: Clears the chat (global).
+    usage: /<command>
+  cpc:
+    description: Clears the chat (privately).
+    usage: /<command>
+  pot:
+    description: Stacks potion in inventory.
+    usage: /<command>
+  reaper:
+    description: Spawn a reaper.
+    usage: /<command>
